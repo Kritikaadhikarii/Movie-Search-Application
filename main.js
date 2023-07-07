@@ -14,7 +14,7 @@ async function loadMoreData(){
     movieContainer.innerHTML = '';
     //this resolved the issue of search button not working after one search
 
-    const response = await fetch(`http://www.omdbapi.com/?s=${inputfield}&apikey=820658f7`);
+    const response = await fetch(`https://www.omdbapi.com/?s=${inputfield}&apikey=820658f7`);
     const datas = await response.json();
 
     if(inputfield === ""){
@@ -93,7 +93,7 @@ async function loadMoreData(){
 
 
 async function fetchData(){
-    const response = await fetch('http://www.omdbapi.com/?i=tt3896198&apikey=820658f7');
+    const response = await fetch('https://www.omdbapi.com/?i=tt3896198&apikey=820658f7');
     const datas = await response.json();
     console.log(datas)
 
