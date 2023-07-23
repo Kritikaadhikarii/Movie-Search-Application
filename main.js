@@ -2,8 +2,6 @@
     // http://www.omdbapi.com/?i=tt3896198&apikey=820658f7
 
     const movieContainer = document.getElementById("movie-container");
-
-
     const search = document.getElementById("search");
 
 
